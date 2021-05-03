@@ -6,8 +6,20 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+   <!-- import local css for #zmmtg-root -->
+   <link type="text/css" href="../node_modules/@zoomus/websdk/dist/css/bootstrap.css" />
+   <link type="text/css" href="../node_modules/@zoomus/websdk/dist/css/react-select.css" />
 </head>
-<body>
+<body class="ReactModal__Body--open">
+  <div id="zmmtg-root"></div>
+  <div id="aria-notify-area"></div>
+    <!-- added on meeting init -->
+  <div class="ReactModalPortal"></div>
+  <div class="ReactModalPortal"></div>
+  <div class="ReactModalPortal"></div>
+  <div class="ReactModalPortal"></div>
+  <div class="global-pop-up-box"></div>
+  <div class="sharer-controlbar-container sharer-controlbar-container--hidden"></div>
   <app-root></app-root>
 </body>
 </html>

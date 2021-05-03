@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "zoom"
+  "defaultProject": "zoom",
+  "cli": {
+    "analytics": "ae865963-d1ef-460d-97ae-210e9d078f16"
+  }
 }
