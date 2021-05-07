@@ -1,7 +1,36 @@
 # About
 
+ generate your API Key and Secret
+
 package used-
 @zoomus/websdk
+
+
+https://zoom.us/docs/en-us/fully-customizable-sdk.html
+https://marketplace.zoom.us/docs/
+https://devforum.zoom.us/
+https://marketplace.zoom.us/docs/api-reference/zoom-api/meetings/meetings
+
+
+post request - you can create signature using below link
+https://test-zoommeeting.herokuapp.com/
+
+{
+
+  "meetingNumber": 123456789,
+
+  "role": 0
+
+}
+
+
+
+
+   
+
+   
+
+
 # Zoom
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.3.
